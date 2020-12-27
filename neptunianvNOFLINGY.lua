@@ -32,9 +32,9 @@ maybe.Handle.CFrame = clone.Handle.CFrame
 maybe.Handle.CanCollide = false
 end)
 
-local toolgoflingfling = Instance.new("BodyVelocity", maybe.Handle)
+--[[local toolgoflingfling = Instance.new("BodyVelocity", maybe.Handle)
 toolgoflingfling.MaxForce = Vector3.new(10000,10000,10000)
-toolgoflingfling.Velocity = Vector3.new(10000,10000,10000)
+toolgoflingfling.Velocity = Vector3.new(10000,10000,10000)]]
 
 warn'Neptune/Neptunian V'
 warn[[Absolutely.

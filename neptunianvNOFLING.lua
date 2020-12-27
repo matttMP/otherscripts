@@ -1,4 +1,4 @@
-
+--Here ya go!
 
 local player = game.Players.LocalPlayer.Character
 local maybe = player.MeshPartAccessory
@@ -31,7 +31,10 @@ game["Run Service"].Heartbeat:connect(function()
 maybe.Handle.CFrame = clone.Handle.CFrame
 maybe.Handle.CanCollide = false
 end)
-
+--[[
+local toolgoflingfling = Instance.new("BodyVelocity", maybe.Handle)
+toolgoflingfling.MaxForce = Vector3.new(10000,10000,10000)
+toolgoflingfling.Velocity = Vector3.new(10000,10000,10000)]]
 
 warn'Neptune/Neptunian V'
 warn[[Absolutely.
@@ -1896,7 +1899,7 @@ end
 cam.CameraType = "Custom"
 orb.Anchored = false
 a:Destroy()
-local bv = Instance.new("BodyVelocity")
+-- local bv = Instance.new("BodyVelocity")
 bv.maxForce = Vector3.new(1e9, 1e9, 1e9)
 bv.velocity = orb.CFrame.lookVector*250
 bv.Parent = orb
